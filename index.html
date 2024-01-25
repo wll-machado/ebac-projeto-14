@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <h1 class="navbar-brand m-0">
+                <i class="bi bi-scissors"></i>
+                Barber
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#cabecalho">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="cabecalho">
+                <ul class="nav nav-pills d-block d-md-flex mt-3 mt-md-0">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link active">
+                            <i class="bi bi-house-door"></i>
+                            Sobre a barbearia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check"></i>
+                            Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#agenda" class="nav-link">
+                            <img src="img/hair-salon-icon.png" alt="">
+                            Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" class="scrollspy-example" tabindex="0">
+        <section id="about">
+            <div class="carousel slide " id="carousel">
+                <div class="carousel-inner" data-bs-ride="carousel">
+                    <div class="carousel-item active" data-bs-interval="3500">
+                        <img src="https://i.pinimg.com/1200x/da/56/47/da5647e75d138281bf2e06bd86598398.jpg"
+                            alt="place1">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3500">
+                        <img src="https://media.istockphoto.com/id/639607852/pt/foto/hairstylist-serving-client-at-barber-shop.jpg?s=612x612&w=0&k=20&c=kduZVTDbF8F1RUZ_fiK-pVzW08injpa6X6OeCblixxM="
+                            alt="place2">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3500">
+                        <img src="https://www.josephguinbarber.com/uploads/1/2/4/4/124499791/josephguinhome_orig.jpg"
+                            alt="place3">
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://classic.exame.com/wp-content/uploads/2020/05/whatsapp-image-2020-05-12-at-10.47.30.jpg?quality=70&strip=info&w=1024"
+                                class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-4 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre a <span>Barbearia</span></h2>
+                            <p>
+                                Localizada no coração da cidade, nossa barbearia é um santuário para aqueles que buscam
+                                mais do que apenas um corte de cabelo – é um destino para uma experiência de beleza e
+                                cuidado masculino incomparável.
+                            </p>
+                            <h3 class="section-title">
+                                sobre o <span>espaço</span>
+                            </h3>
+                            <p>
+                                combinando o charme clássico de uma barbearia tradicional com toques modernos
+                            </p>
+                            <ul>
+                                <li>Atmosfera Acolhedora e Vintage</li>
+                                <li>Serviços Premium e Personalizados</li>
+                                <li>Enfoque no Bem-Estar Masculino</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://blog.newoldman.com.br/wp-content/uploads/2021/07/Diferenca-entre-Cabeleireiro-e-Barbeiro-Barbearia-Salao-ou-Barbershop.jpg"
+                                class="d-block w-100 rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="eventos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Para todos <span>os estilos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded"
+                            src="https://www.meucontadoronline.com.br/blog/wp-content/uploads/2022/09/Barbearia--1024x576.jpg"
+                            alt="">
+                        <h3 class="section-title">Barba, Cabelo e Bigode </h3>
+                        <p>Mude seu visual por completo</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded"
+                            src="https://www.guaruja.sp.gov.br/wp-content/uploads/2023/08/53099588712_60d278864b_b.jpg"
+                            alt="">
+                        <h3 class="section-title">Workshop</h3>
+                        <p>Aprenda com quem sabe de verdade</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded"
+                            src="https://salaovirtual.org/wp-content/uploads/2023/05/Fotos-dicas-beleza-masculina-noivos.webp"
+                            alt="">
+                        <h3 class="section-title">Casamentos</h3>
+                        <p>Do noivo aos padrinhos!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="agenda" class="mt-5 mb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="d-block w-60 rounded h-80"
+                            src="https://p16-capcut-sign-va.ibyteimg.com/tos-maliva-v-be9c48-us/221782b14931436e806001019b15346b~tplv-nhvfeczskr-1:250:0.webp?lk3s=44acef4b&x-expires=1733218244&x-signature=PaCvTJBzV7wFxMP9Y5M%2Bc8qcvMg%3D"
+                            alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="section-title">Agende ja uma data</h3>
+                        <p>Estamos ansiosos para receber vocês para uma experiência de cuidados masculinos excepcionais
+                            ao longo do ano de 2024. Em nossa busca contínua pela excelência, implementamos um sistema
+                            de agendamento conveniente para garantir que cada cliente desfrute de serviços
+                            personalizados em horários que se adequem ao seu estilo de vida.
+
+                            Para garantir sua vaga preferida, recomendamos antecipar seu agendamento. Estamos
+                            comprometidos em proporcionar flexibilidade e conveniência, adaptando-nos às suas
+                            necessidades. Este ano, introduzimos novos tratamentos exclusivos e pacotes especiais para
+                            aprimorar ainda mais sua experiência conosco.
+
+                            Mantenha-se atento às nossas promoções sazonais e eventos especiais ao longo do ano de 2024.
+                            Agradecemos por escolher a "Estilo de Navalha" como seu destino confiável para cuidados
+                            masculinos e esperamos recebê-lo em breve para uma jornada única de beleza e bem-estar.
+
+                            Atenciosamente,
+
+                            A equipe "Estilo de Navalha"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div>
+                                <label for="nome" class="form-label mt-2">Seu nome</label>
+                                <input type="text" name="nome" id="nome" class="form-control">
+                            </div>
+
+                            <div>
+                                <label for="email" class="form-label mt-2">Seu email</label>
+                                <input type="email" name="email" id="email" class="form-control">
+                            </div>
+
+                            <div>
+                                <label for="tel" class="form-label mt-2">Seu telelefone</label>
+                                <input type="tel" name="tel" id="tel" class="form-control">
+                            </div>
+
+                            <div>
+                                <label for="msg" class="form-label mt-2">Mensagem (opcional)</label>
+                                <textarea name="msg" id="msg" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">Redes sociais</h3>
+                            <ul class="d-md-flex w-50 justify-content-between">
+                                <li>
+                                    <a href="">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">Endereço</h3>
+                            <p>Rua da reta nº 123, Bairro da Curva - Rio de Janeiro</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

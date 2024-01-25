@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #e4e4e4;
+}
+.navbar {
+    background-color: rgb(110, 3, 143);
+}
+
+.nav .nav-link.active {
+    background-color: rgb(60, 3, 83);
+    color: #fff;
+}
+
+.nav .nav-link {
+    color: #fff;
+}
+
+.nav .nav-item a img {
+    filter: invert(90%);
+        width: 17px;
+}
+
+.nav .nav-item:hover .nav-link{
+    color: rgb(60, 3, 83);
+}
+
+.navbar-brand {
+    font-family: Pacifico, cursive;
+    color: #fff;
+}
+
+
+.carousel {
+    width: 60%;
+    background-image: url("https://img.myloview.com.br/fotomurais/barbershop-logo-poster-or-banner-design-concept-with-barber-pole-and-bearded-men-vector-illustration-700-226733688.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.carousel-inner{
+    height: 400px;
+    text-align: center;
+}
+
+.carousel-item {
+    background-color: transparent;
+}
+
+.carousel-item img {
+    height: 400px;
+}
+
+h2 , h3 {
+    font-family: Pacifico, cursive;
+}
+
+h2>span, h3>span {
+    color: rgb(60, 3, 83);
+}
+
+.col-md-4 img {
+    height: 267px;
+}
+
+.col-md-4 p {
+    font-weight: bold;
+}
+
+.col-md-4 h3 {
+    color: rgb(60, 3, 83);
+    margin-top: 10px;
+}
+
+#contato {
+    background-color: rgb(60, 3, 83);
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.btn{
+    background-color: rgb(194, 23, 247);
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+    width: 100%;
+}
+@media screen and (max-width:391px){
+    .carousel {
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        margin: 0 auto;
+    }
+}
